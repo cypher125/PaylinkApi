@@ -204,6 +204,7 @@ cors_origins_str = os.environ.get('CORS_ALLOWED_ORIGINS', '')
 CORS_ALLOWED_ORIGINS = cors_origins_str.split(',') if cors_origins_str else [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://paylinkapi.onrender.com",
 ]
 
 # Enable credentials (cookies, authorization headers)
