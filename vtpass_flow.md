@@ -1,3 +1,7 @@
+# VTPass API Integration Flow
+
+## Sequence Diagram
+
 ```mermaid
 sequenceDiagram
     participant Client as Frontend Client
@@ -37,6 +41,8 @@ sequenceDiagram
     end
 ```
 
+## Flowchart Diagram
+
 ```mermaid
 flowchart TD
     A[Frontend Client] --> B[PayLink API]
@@ -68,7 +74,7 @@ flowchart TD
     end
 ```
 
-## VTPass API Integration Flow
+## Process Documentation
 
 ### Authentication Process
 1. **Client Authentication**: Frontend authenticates with PayLink API using JWT
