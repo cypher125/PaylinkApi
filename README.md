@@ -50,12 +50,18 @@ A Django REST API for the PayLink application with VTPass integration for utilit
 
 ## API Documentation
 
+### Api home page
+
+```
+https://paylinkapi.onrender.com/
+```
+
 ### Swagger UI
 
 The API documentation is available through Swagger UI at:
 
 ```
-http://localhost:8000/api/docs/
+https://paylinkapi.onrender.com/api/docs
 ```
 
 ### Redoc
@@ -63,7 +69,7 @@ http://localhost:8000/api/docs/
 Alternative documentation using Redoc is available at:
 
 ```
-http://localhost:8000/api/redoc/
+https://paylinkapi.onrender.com/api/redoc/
 ```
 
 ### OpenAPI Schema
@@ -71,7 +77,7 @@ http://localhost:8000/api/redoc/
 The raw OpenAPI schema is available at:
 
 ```
-http://localhost:8000/api/schema/
+https://paylinkapi.onrender.com/api/schema/
 ```
 
 ## API Endpoints
